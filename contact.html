@@ -48,7 +48,7 @@
 							<div class="row uniform 50%">
 								<div class="12u">
 									<label for="subject" class="required"></label>
-									<input type="text" name="subject" id="subject" value="" placeholder="Subject" required="required">
+									<input type="text" name="subject" id="subject" placeholder="Subject" required="required">
 								</div>
 							</div>
 							<div class="row uniform 50%">
@@ -57,6 +57,12 @@
 									<textarea name="message" id="message" placeholder="Enter your message" rows="6" required="required"></textarea>
 								</div>
 							</div>
+						  	<div class="row uniform 50%" style="height: 0; overflow: hidden;">
+							  	<div class="12u">
+								    <label for="antispam">Please leave this field blank (if it's not blank your message will be marked as spam!):</label>
+								    <input type="text" id="antispam" name="_gotcha">
+							    </div>
+						  	</div>
 							<div class="row uniform">
 								<div class="12u">
 									<ul class="actions align-center">

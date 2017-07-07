@@ -7,9 +7,18 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<link rel='stylesheet prefetch' href='https://cdn.plyr.io/2.0.7/plyr.css'>
-		<link rel="stylesheet" href="assets/plyr/style.css">
-    	<link rel = "shortcut icon" href = "images/favicon.ico" type="image/x-icon"/>
+		<link rel='stylesheet' href='assets/plyr/plyr.css'>
+	    <style>
+	     .container {
+		  max-width: 800px;
+		  margin: 0 auto;
+		}
+		.plyr {
+		  border-radius: 4px;
+		  margin-bottom: 15px;
+		}
+	    </style>
+	    <link rel = "shortcut icon" href = "images/favicon.ico" type="image/x-icon"/>
 	</head>
 
 	<body>
@@ -42,17 +51,15 @@
 						<li><a href="listen/4/4.mp3" class="button alt icon fa-check" download>Download MP3</a></li>
 					</ul>
 					<!-- To download thumbnail head over to https://thumbnail-download.com/ -->
-					<video poster="listen/thumbnails/4.jpg">
+					<video poster="listen/thumbnails/4.jpg" style="max-width: 100%; height: auto;">
 					    <!-- Video files -->
 					    <!-- You have to include MP4 and WEBM because not all browsers support MP4 -->
 					    <source src="listen/4/4.mp4" type="video/mp4">
 						<!-- To convert MP4 to webm head over to http://video.online-convert.com/convert-to-webm -->
-					    <source src="listen/4/4.webm" type="video/webm">
 					</video>
 					</br>
 					<audio controls>
 					  	<source src="listen/4/4.mp3" type="audio/mp3">
-					  	<source src="listen/4/4.ogg" type="audio/ogg">
 					</audio>
 				</div>
 
@@ -64,17 +71,15 @@
 						<li><a href="listen/3/3.mp3" class="button alt icon fa-check" download>Download MP3</a></li>
 					</ul>
 					<!-- To download thumbnail head over to https://thumbnail-download.com/ -->
-					<video poster="listen/thumbnails/3.jpg">
+					<video poster="listen/thumbnails/3.jpg" style="max-width: 100%; height: auto;">
 					    <!-- Video files -->
 					    <!-- You have to include MP4 and WEBM because not all browsers support MP4 -->
 					    <source src="listen/3/3.mp4" type="video/mp4">
 						<!-- To convert MP4 to webm head over to http://video.online-convert.com/convert-to-webm -->
-					    <source src="listen/3/3.webm" type="video/webm">
 					</video>
 					</br>
 					<audio controls>
 					  	<source src="listen/3/3.mp3" type="audio/mp3">
-					  	<source src="listen/3/3.ogg" type="audio/ogg">
 					</audio>
 				</div>
 
@@ -86,17 +91,15 @@
 						<li><a href="listen/2/2.mp3" class="button alt icon fa-check" download>Download MP3</a></li>
 					</ul>
 					<!-- To download thumbnail head over to https://thumbnail-download.com/ -->
-					<video poster="listen/thumbnails/2.jpg">
+					<video poster="listen/thumbnails/2.jpg" style="max-width: 100%; height: auto;">
 					    <!-- Video files -->
 					    <!-- You have to include MP4 and WEBM because not all browsers support MP4 -->
 					    <source src="listen/2/2.mp4" type="video/mp4">
 						<!-- To convert MP4 to webm head over to http://video.online-convert.com/convert-to-webm -->
-					    <source src="listen/2/2.webm" type="video/webm">
 					</video>
 					</br>
 					<audio controls>
 					  	<source src="listen/2/2.mp3" type="audio/mp3">
-					  	<source src="listen/2/2.ogg" type="audio/ogg">
 					</audio>
 				</div>
 
@@ -108,17 +111,15 @@
 						<li><a href="listen/1/1.mp3" class="button alt icon fa-check" download>Download MP3</a></li>
 					</ul>
 					<!-- To download thumbnail head over to https://thumbnail-download.com/ -->
-					<video poster="listen/thumbnails/1.jpg">
+					<video poster="listen/thumbnails/1.jpg" style="max-width: 100%; height: auto;">
 					    <!-- Video files -->
 					    <!-- You have to include MP4 and WEBM because not all browsers support MP4 -->
 					    <source src="listen/1/1.mp4" type="video/mp4">
 						<!-- To convert MP4 to webm head over to http://video.online-convert.com/convert-to-webm -->
-					    <source src="listen/1/1.webm" type="video/webm">
 					</video>
 					</br>
 					<audio controls>
 					  	<source src="listen/1/1.mp3" type="audio/mp3">
-					  	<source src="listen/1/1.ogg" type="audio/ogg">
 					</audio>
 					</br>
 					<ul class="actions">
@@ -144,8 +145,11 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src='https://cdn.plyr.io/2.0.7/plyr.js'></script>
-    		<script src="assets/plyr/index.js"></script>
+			<script src="assets/plyr/plyr.js"></script>
+			<script src="assets/plyr/index.js"></script>
+			<script src="assets/plyr/rangetouch.js" async></script>
+	        <script src="assets/plyr/shr.js"></script>
+	        <script>if(window.shr) { window.shr.setup({ count: { classname: 'btn__count' } }); }</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollgress.min.js"></script>

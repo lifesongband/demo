@@ -3165,13 +3165,10 @@
 
 	#cta {
 		background-image: url("../../images/cross.jpg");
-		width: auto ;
-		max-width: 100% ;
-		height: auto ;
 		background-attachment: fixed;
-	    background-position: left;
-	    background-repeat: no-repeat;
-	    background-size: cover;
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3756,6 +3753,9 @@
 		/* CTA */
 
 			#cta {
+				width: auto ;
+				max-width: 100% ;
+				height: auto ;		
 				background-size: contain;
 				padding: 2.5em 1em 3em 1em;
 			}

@@ -3164,7 +3164,7 @@
 /* CTA */
 
 	#cta {
-		background-image: url("../../images/cross.jpg");
+		background: url("../../images/cross.jpg") no-repeat center center fixed;
 		background-attachment: fixed;
 	    background-position: left;
 	    background-repeat: no-repeat;

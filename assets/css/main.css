@@ -3164,17 +3164,13 @@
 /* CTA */
 
 	#cta {
-		background: url("../../images/cross.jpg") no-repeat center center fixed;
+		background-image: url("../../images/cross.jpg");
+		width: auto ;
+		max-width: 100% ;
+		height: auto ;
 		background-attachment: fixed;
 	    background-position: left;
 	    background-repeat: no-repeat;
-	    -webkit-background-size: 100%; 
-	    -moz-background-size: 100%; 
-	    -o-background-size: 100%; 
-	    background-size: 100%; 
-	    -webkit-background-size: cover; 
-	    -moz-background-size: cover; 
-	    -o-background-size: cover; 
 	    background-size: cover;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;

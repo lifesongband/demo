@@ -3166,7 +3166,7 @@
 	#cta {
 		background-image: url("../../images/cross.jpg");
 		background-attachment: fixed;
-	    background-position: center;
+	    background-position: left;
 	    background-repeat: no-repeat;
 	    background-size: cover;
 		color: #f9e5df;

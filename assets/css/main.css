@@ -3648,6 +3648,12 @@
 					padding-left: 0;
 				}
 
+		/* CTA */
+
+			#cta {
+				background-attachment: inherit;
+				padding: inherit;
+			}
 	}
 
 /* Mobile (Portrait) */

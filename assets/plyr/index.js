@@ -44,6 +44,7 @@
     // Forward
     on('.js-forward', 'click', function() { 
       instance.forward();
+
     });
   });
 })();

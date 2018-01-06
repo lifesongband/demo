@@ -3279,6 +3279,12 @@
 					font-size: 3.5em;
 				}
 
+		/* CTA */
+
+			#cta {
+				background-attachment: inherit;
+				padding: inherit;
+			}
 	}
 
 /* Narrow */
@@ -3291,6 +3297,12 @@
 				font-size: 11pt;
 			}
 
+		/* CTA */
+
+			#cta {
+				background-attachment: inherit;
+				padding: inherit;
+			}
 	}
 
 /* Narrower */
@@ -3520,6 +3532,12 @@
 				transform: translateX(0);
 			}
 
+		/* CTA */
+
+			#cta {
+				background-attachment: inherit;
+				padding: inherit;
+			}
 	}
 
 /* Mobile */
